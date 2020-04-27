@@ -1,0 +1,14 @@
+.movie-list {
+    display: grid;
+    justify-items: center;
+    grid-column-gap: 15px;
+    @include mq(em(590)){
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @include mq(em(860)){
+        grid-template-columns: repeat(3, 1fr);
+    }
+    @include mq(em(1150)){
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

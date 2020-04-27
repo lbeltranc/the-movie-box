@@ -1,0 +1,18 @@
+footer {
+    @include mc;
+    padding: 20px;
+    background-color: $darkRed;
+    text-align: center;
+    width: 100%;
+    img {
+        width: 100px;
+    }
+    p {
+        margin: 0;
+    }
+    @include mq(em(450)){
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

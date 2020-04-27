@@ -1,0 +1,38 @@
+.movie-selector {
+    padding-bottom: 20px;
+    form {
+        display: flex;
+        align-items: center;
+        label {
+            margin-right: 8px;
+        }
+        .selector-wrapper {
+            position: relative;
+        }
+
+        .selector-wrapper:after{
+            content: "";
+            position: absolute;
+            top: 50%;
+            right: 12px;
+            transform: translateY(-50%);
+            width: 0;
+            height: 0;
+            border-left: 8px solid transparent;
+            border-right: 8px solid transparent;
+            border-top: 10px solid $lightRed;
+            pointer-events: none;
+        }
+        select {
+            width: 100%;
+            -webkit-appearance: none;
+            background-color: $black;
+            color: $lightRed;
+            padding: 3px 50px 3px 5px;
+            border-radius: 10px;
+            font-size: 13px;
+            border: 1px solid $lightRed;
+
+        }
+    } 
+}

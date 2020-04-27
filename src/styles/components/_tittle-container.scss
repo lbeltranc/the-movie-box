@@ -1,0 +1,19 @@
+.title-container {
+    @include mc;
+    text-align: center;
+    width: 250px;
+    margin-bottom: 20PX;
+    a {
+        text-decoration: none;    
+    }
+    h2 {
+        margin-bottom: 10px;
+        color: $red;
+        font-size: 20px;
+    }
+    span {
+        color: $lightRed;
+        font-weight: 700;
+    }
+    
+}
