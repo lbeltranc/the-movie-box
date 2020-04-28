@@ -18,7 +18,6 @@ const createMovieContainer = (arr) => {
                                 <h3>Release date: </h3>
                                 <p>{item.release_date}</p>
                             </div>
-                            <div>more info</div>
                             <NavLink className="more-info" to={`movie-page/${item.id}`}>More info...</NavLink>
                         </div>
                     </div>
