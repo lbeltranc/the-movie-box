@@ -42,17 +42,6 @@ const createMovieContainer = (arr) => {
     })
 }
 
-// const moviesRating = () => {
-
-//     return (
-//         <StarRatings
-//         rating={item.vote_average}
-//         starDimension="20px"
-//         starSpacing="15px"
-//       />  
-//     )
-// }
-
 export const MovieList = (props) => {
     return (
         <section className="movie-list">
