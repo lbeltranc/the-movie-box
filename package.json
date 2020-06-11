@@ -1,7 +1,6 @@
 {
   "name": "the-movie-box",
   "version": "0.1.0",
-  "homepage": "/the-movie-box",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",

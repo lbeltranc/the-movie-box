@@ -10,7 +10,7 @@ import FavoriteMovies from '../components/FavoriteMovies';
 import PageNotFound from '../components/PageNotFound';
 
 const AppRouter = () => (
-	<Router basename={'the-movie-box'}>
+	<Router>
 		<div className="wrapper" >
 			<Header />
 			<Nav />
